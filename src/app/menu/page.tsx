@@ -15,7 +15,7 @@ export default function Menu() {
             <h1 className="uppercase font-bold text-3xl">{cat.title}</h1>
             <p className="text-sm my-8">{cat.desc}</p>
             <button
-              className={`hidden 2xl:block bg-${cat.color} text-rose-500 py-2 px-4 rounded-md`}
+              className={`hidden 2xl:block bg-${cat.color} text-${cat.color === "black" ? "white" : "rose-500"} py-2 px-4 rounded-md`}
             >
               Explore
             </button>
