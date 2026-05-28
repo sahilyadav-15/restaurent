@@ -22,7 +22,7 @@ const data = [
 ];
 
 export default function Slider() {
-  const [currentSlide, setCurrentSlide] = useState(0);
+  const [currentSlide, setCurrentSlide] = useState(1);
 
   useEffect(() => {
     const interval = setInterval(
